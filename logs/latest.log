@@ -1,18 +1,48 @@
-[14:51:05] [ServerMain/ERROR]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:104)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:109)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371)
-	at java.base/java.nio.file.Files.newInputStream(Files.java:154)
-	at net.minecraft.server.dedicated.Settings.loadFromFile(Settings.java:62)
-	at net.minecraft.server.dedicated.DedicatedServerProperties.fromFile(DedicatedServerProperties.java:154)
-	at net.minecraft.server.dedicated.DedicatedServerSettings.<init>(DedicatedServerSettings.java:12)
-	at net.minecraft.server.Main.main(Main.java:114)
-	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54)
-	at java.base/java.lang.Thread.run(Thread.java:1516)
-[14:51:05] [ServerMain/WARN]: Failed to load eula.txt
-[14:51:05] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[13:11:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[13:11:12] [Worker-Main-1/INFO]: No existing world data, creating new world
+[13:11:13] [ServerMain/INFO]: Loaded 1515 recipes
+[13:11:13] [ServerMain/INFO]: Loaded 1617 advancements
+[13:11:13] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[13:11:13] [Server thread/INFO]: Loading properties
+[13:11:13] [Server thread/INFO]: Default game type: SURVIVAL
+[13:11:13] [Server thread/INFO]: Generating keypair
+[13:11:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:11:14] [Server thread/INFO]: Preparing level "world"
+[13:11:15] [Server thread/INFO]: Selecting global world spawn...
+[13:11:24] [Server thread/INFO]: Loading 0 persistent chunks...
+[13:11:25] [Server thread/INFO]: Preparing spawn area: 100%
+[13:11:25] [Server thread/INFO]: Time elapsed: 9886 ms
+[13:11:25] [Server thread/INFO]: Done (10.665s)! For help, type "help"
+[13:11:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:11:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:11:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:11:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:11:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:11:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:11:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:11:38] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[13:11:38] [Server thread/INFO]: [B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B<--[HERE]
+[13:12:25] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[13:30:24] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[13:30:24] [Server thread/INFO]: exit<--[HERE]
+[13:30:30] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[13:30:30] [Server thread/INFO]: close<--[HERE]
+[13:30:34] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[13:30:34] [Server thread/INFO]: exit<--[HERE]
+[13:31:00] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[13:31:00] [Server thread/INFO]: end<--[HERE]
+[13:31:03] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[13:31:03] [Server thread/INFO]: close<--[HERE]
+[13:31:04] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[13:31:04] [Server thread/INFO]: exit<--[HERE]
+[13:31:10] [Server thread/INFO]: Stopping the server
+[13:31:10] [Server thread/INFO]: Stopping server
+[13:31:10] [Server thread/INFO]: Saving players
+[13:31:10] [Server thread/INFO]: Saving worlds
+[13:31:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:31:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:31:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
